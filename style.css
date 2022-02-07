@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header1 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("rasm.png");
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  /* clip-path: circle(60% at 100% 100%); */
+}
+.header2 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("rasm2.png ");
+  background-position: center;
+  background-size: cover;
+
+  clip-path: polygon(0 0, 50% 0, 0 50%);
+  /* clip-path: circle(30% at 40% 50%); */
+}
+
+.header3 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("rasm3.jpg");
+  background-position: bottom;
+  background-size: cover;
+
+  clip-path: polygon(50% 0, 100% 0, 100% 50%);
+  /* clip-path: circle(30% at 40% 50%); */
+}
+
+.header4 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("rasm4.jpg");
+  background-position: top left;
+  background-size: cover;
+
+  clip-path: polygon(100% 50%, 100% 100%, 50% 100%);
+  /* clip-path: circle(30% at 40% 50%); */
+}
+
+.header5 {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("rasm5.jpg");
+  background-position: top;
+  background-size: cover;
+
+  clip-path: polygon(50% 100%, 0 100%, 0 50%);
+  /* clip-path: circle(30% at 40% 50%); */
+}
