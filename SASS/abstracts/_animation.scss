@@ -1,0 +1,51 @@
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(200rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveButton-bottom {
+  0% {
+    opacity: 0;
+    transform: translateY(200rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes choose-background {
+  0% {
+    background-image: url("../img/hero.jpg");
+    /* transform: translateX(-100%); */
+  }
+  25% {
+    background-image: url("../img/rasm.png");
+    /* transform: translateX(0rem); */
+  }
+  50% {
+    background-image: url("../img/rasm2.png");
+    /* transform: translateX(-100%); */
+  }
+  75% {
+    background-image: url("../img/rasm3.jpg");
+    /* transform: translateX(0rem); */
+  }
+}

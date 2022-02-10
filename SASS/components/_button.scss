@@ -1,0 +1,34 @@
+.header__banner--button {
+  height: 4rem;
+  width: 20rem;
+  color: #000;
+  border: none;
+  border-radius: 2rem;
+  background-color: #fff;
+  display: block;
+  margin: 2rem auto;
+  position: relative;
+
+  animation-name: moveButton-bottom;
+  animation-duration: 2s;
+  /* animation-iteration-count: infinite; */
+
+  &::after {
+    content: " ";
+    position: absolute;
+    height: 4rem;
+    width: 20rem;
+    display: inline-block;
+    border-radius: 2rem;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+  &:hover.header__banner--button::after {
+    transform: scale(2);
+    /* z-index: 1; */
+    opacity: 0;
+  }
+}
